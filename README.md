@@ -9,10 +9,9 @@ It performs multiple scans on a given target and generates clean reports (includ
 
 ## Features
 
-- Interactive mode: step-by-step confirmation before scanning  
-- Progress spinner while fetching data  
-- Verbose / Debug mode (`--debug`)  
-- Generates **HTML reports** (stored in `reports/`)  
+- Interactive mode: step-by-step confirmation before scanning    
+- Verbose / Debug mode  
+- Generates **HTML reports**   
 - Multiple vulnerability checks:
   - Headers & SSL/TLS checks  
   - Open ports  
@@ -20,8 +19,7 @@ It performs multiple scans on a given target and generates clean reports (includ
   - Directory scanning  
   - Basic vulnerability signatures  
 - Cross-platform: Windows, Linux, macOS  
-- Easy setup with one command or helper script  
-
+ 
 ---
 
 ## Quick Start
@@ -32,4 +30,5 @@ Clone this repository:
 git clone https://github.com/yourusername/striker.git
 cd striker
 pip install -r requirements.txt
+
 python striker.py
