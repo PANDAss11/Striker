@@ -1,0 +1,4 @@
+aiohttp>=3.9.0
+pyfiglet>=1.0.2
+colorama>=0.4.6
+certifi>=2023.7.22
